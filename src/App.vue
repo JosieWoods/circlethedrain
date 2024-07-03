@@ -9,7 +9,7 @@
         <div class="relative w-16 h-16">
           <img
             class="rounded-full"
-            src="./assets/CtD Logo.png"
+            :src="ctdLogo"
             alt="user image"
           />
         <a href="https://www.instagram.com/circlethedrainband/">
@@ -61,7 +61,7 @@
     <div class="mainGif">
         <img
           class="size-2/3"
-          src="./assets/CtD Slow Gif.gif"
+          :src="ctdGif"
           alt="gif of Circle the Drain performing"
         />
       </div>
@@ -110,7 +110,7 @@
       <div class="card-image">
         <img
           class="object-cover w-full h-48 md:h-96"
-          src="./assets/CtD Live.jpg"
+          :src="ctdLive"
         />
       </div>
     </div>
@@ -148,7 +148,7 @@
         <div class="relative lg:flex rounded-lg overflow-hidden">
         <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="size-4/5 mr-10">
         <img
-          src="./assets/CtD Testimonial 1.PNG"
+          :src="ctdTestOne"
           alt="gif of Circle the Drain performing"
         />
         </a>
@@ -157,7 +157,7 @@
           ></div>
           <a href="https://www.instagram.com/circlethedrainband/">
           <img
-          src="./assets/CtD Testimonial 2.PNG"
+          :src="ctdTestTwo"
           alt="gif of Circle the Drain performing"
         />
         </a>
@@ -169,7 +169,7 @@
   <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
     <img
       class="md:h-[500px] h-[400px]"
-      src="./assets/CtD Tree.jpeg"
+      :src="ctdTree"
       alt="user image"
     />
     <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
@@ -208,7 +208,7 @@
       <div class="flex flex-wrap justify-end gap-2">
       <img
             class=""
-            src="./assets/CtD Poster.png"
+            :src="ctdPoster"
             alt="user image"
           />
       </div>
@@ -217,6 +217,15 @@
 </div>
 </template>
 <script>
+
+import ctdLogo from './assets/CtD Logo.png';
+import ctdGif from './assets/CtD Slow Gif.gif';
+import ctdLive from './assets/CtD Live.jpg';
+import ctdTestOne from './assets/CtD Testimonial 1.png';
+import ctdTestTwo from './assets/CtD Testimonial 2.png';
+import ctdTree from './assets/CtD Tree.jpeg';
+import ctdPoster from './assets/CtD Poster.png';
+
   export default {
     data() {
       return {
