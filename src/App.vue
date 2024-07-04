@@ -9,7 +9,7 @@
         <div class="relative w-16 h-16">
           <img
             class="rounded-full"
-            :src="ctdLogo"
+            src="./assets/CtD-Logo.png"
             alt="user image"
           />
         <a href="https://www.instagram.com/circlethedrainband/">
@@ -61,7 +61,7 @@
     <div class="mainGif">
         <img
           class="size-2/3"
-          :src="ctdGif"
+          src="./assets/CtD-Slow-Gif.gif"
           alt="gif of Circle the Drain performing"
         />
       </div>
@@ -217,8 +217,6 @@
 </div>
 </template>
 <script>
-
-import ctdLogo from './assets/CtD Logo.png';
 import ctdGif from './assets/CtD Slow Gif.gif';
 import ctdLive from './assets/CtD Live.jpg';
 import ctdTestOne from './assets/CtD Testimonial 1.png';
