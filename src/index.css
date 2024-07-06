@@ -45,7 +45,7 @@
 }
 
 .mainGif {
-  @apply flex justify-center bg-black mt-10 mb-10;
+  @apply flex justify-center bg-black mt-10 mb-10 ml-2;
 }
 
 @layer utilities {

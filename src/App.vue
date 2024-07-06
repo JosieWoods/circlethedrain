@@ -1,51 +1,38 @@
 <template>
   <div class="bg-black">
   <div class="banner-1">
-    <!-- NavBar -->
-    <nav
-      class="container px-6 mx-auto md:flex md:justify-between md:items-center"
-    >
-      <div class="flex-col items-center justify-between">
-        <div class="relative w-16 h-16">
+  <div class ="flex">
+  <!--Logo and Social Buttons-->
+  <div class="flex-col items-center justify-between w-5 mr-10">
+        <div class="relative w-16 h-16 mr-5">
           <img
             class="rounded-full"
             src="./assets/ctdlogo.png"
-            alt="user image"
           />
         <a href="https://www.instagram.com/circlethedrainband/">
           <img
             class="rounded-full size-10 ml-1 mt-1"
             src="./assets/instagram.png"
-            alt="user image"
           />
           </a>
         <a href="https://open.spotify.com/artist/66rzOvJabQqzfYNO0xF0aK">
           <img
             class="w-12 h-8"
             src="./assets/spotify.png"
-            alt="user image"
           />
           </a>
           </div>
-        <!-- Mobile menu button -->
-        <div @click="showMenu = !showMenu" class="flex md:hidden">
-          <button
-            type="button"
-            class="text-white-800 hover:text-white-400 focus:outline-none focus:text-white-400"
-          >
-            <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-              <path
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
-              ></path>
-            </svg>
-          </button>
-        </div>
       </div>
+    <div><p class="text-white w-48"></p></div>
+    <!-----End Logo----->
+    <!-- NavBar -->
+    <nav
+      class="container px-6 mx-auto md:flex md:justify-between md:items-center"
+    >
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <ul
-        :class="showMenu ? 'flex' : 'hidden'"
-        class="flex-col items-end mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        :class="showMenu ? 'flex' : 'flex object-top'"
+        class="flex-col items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
         <li class="menu-button"><a href="#">Home</a></li>
         <li class="menu-button"><a href="#music" v-smooth-scroll>Music</a></li>
@@ -58,9 +45,10 @@
     </nav>
     <!-- End Navbar -->
     </div>
+    </div>
     <div class="mainGif">
         <img
-          class="size-2/3"
+          class="size-2/3 mt-20"
           src="./assets/ctdslowgif.gif"
           alt="gif of Circle the Drain performing"
         />
@@ -68,8 +56,8 @@
 
   <div class="banner-2 space-y-10 pb-20" id="music">
     <div>
-    <h3 class="heading3 my-5">Our Music</h3>
-    <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed">
+    <h3 class="heading3 my-5 ml-2">Our Music</h3>
+    <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed ml-2">
     Stream these tunes!
       </p>
     </div>
@@ -109,15 +97,15 @@
       </div>
       <div class="card-image">
         <img
-          class="object-cover w-full h-48 md:h-96"
+          class="object-cover bg-white-100 w-full h-full"
           src="./assets/ctdlive.jpg"
         />
       </div>
     </div>
   </div>
 
-  <div class="banner-2" id="video">
-    <div class="space-y-4 grid mt-5">
+  <div class="banner-2 ml-5" id="video">
+    <div class="space-y-4 grid mt-5 mr-5">
       <h3 class="heading3 text-right">Videos</h3>
       <p class="text-right font-work_sans text-gray-600 font-semibold leading-relaxed">
         Check out some clips of us in action!
@@ -125,10 +113,11 @@
     </div>
 
     <div class="max-w-6xl mx-auto px-8 py-16">
-      <div>
-      <div class="flex">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="flex justify-center">
+      <div class="flex-col justify-center">
+    <iframe width="360" height="185" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
+    <hr class="h-px my-8 mr-10 w-130 bg-white border-0 dark:bg-white">
+    <iframe width="360" height="185" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
       <div class="relative">
@@ -138,8 +127,8 @@
 
   <div class="banner-2" id="testimonials">
     <div class="space-y-4 grid mt-5">
-      <h3 class="heading3 text-left">Testimonials</h3>
-      <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed">
+      <h3 class="heading3 text-left ml-1">Testimonials</h3>
+      <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed ml-1">
         Kind words from amazing people 🥹
       </p>
     </div>
@@ -149,7 +138,6 @@
         <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="size-4/5 mr-10">
         <img
           src="./assets/ctdtestone.png"
-          alt="gif of Circle the Drain performing"
         />
         </a>
           <div
@@ -158,7 +146,6 @@
           <a href="https://www.instagram.com/circlethedrainband/">
           <img
           src="./assets/ctdTestTwo.png"
-          alt="gif of Circle the Drain performing"
         />
         </a>
         </div>
@@ -166,15 +153,17 @@
     </div>
   </div>
 
-  <div class="banner-2 md:flex items-center md:justify-evenly" id="about">
+<div class="banner-2 space-y-10 pb-5" id="music">
+<h3 class="heading3 text-right mr-5">About Us</h3>
+</div>
+<div class="flex-col">
+<div class="flex justify-center">
     <img
-      class="md:h-[500px] h-[400px]"
-      src="./assets/ctdtree.jpeg"
-      alt="user image"
+      class="size-2/5 ml-5"
+      src="./assets/ctdtree.png"
     />
-    <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <h4 class="project-title item">About Us</h4>
-      <p class="font-work_sans">
+  <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+      <p class="font-work_sans text-white">
         Hey y'all, we're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more!
         <br>
         <br />
@@ -188,9 +177,10 @@
       </p>
     </div>
   </div>
+  </div>
 
   <div class="banner-1 flex h-full items-center">
-    <div class="w-7/12 p-12">
+    <div class="w-7/12">
     <div class="flex">
       <h2 class="text-orange-200 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
         Crabs, crabs, crabs, please!
@@ -204,12 +194,11 @@
         >circlethedrainband@gmail.com</a
       >
     </div>
-    <div class="w-5/12 pr-28">
+    <div class="size-3/5">
       <div class="flex flex-wrap justify-end gap-2">
       <img
             class=""
             src="./assets/ctdposter.png"
-            alt="user image"
           />
       </div>
     </div>
