@@ -156,7 +156,7 @@
   </div>
 
 <div class="banner-2 space-y-10 pb-5" id="music">
-<h3 class="heading3 text-center">About Us</h3>
+<h3 class="heading3 text-center mb-20">About Us</h3>
 </div>
 <div class="flex-col ml-5">
 <div class="flex justify-center">
