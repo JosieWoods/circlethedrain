@@ -156,7 +156,7 @@
 <div class="banner-2 space-y-10 pb-5" id="music">
 <h3 class="heading3 text-right mr-5">About Us</h3>
 </div>
-<div class="flex-col">
+<div class="flex-col ml-5">
 <div class="flex justify-center">
     <img
       class="size-2/5 ml-5"
@@ -189,15 +189,17 @@
         Just like Amelia Earhart, take me crabs!
       </h2>
       </div>
+      <div class="pb-5">
       <p class="text-white">For booking inquiries: </p>
-      <a class="underline text-2xl text-sky-200 font-work_sans"
+      <a class="underline text-small text-sky-200 font-work_sans"
         >circlethedrainband@gmail.com</a
       >
+      </div>
     </div>
-    <div class="size-3/5">
+    <div class="size-2/5">
       <div class="flex flex-wrap justify-end gap-2">
       <img
-            class=""
+            class="pb-20 pl-5"
             src="./assets/ctdposter.png"
           />
       </div>
