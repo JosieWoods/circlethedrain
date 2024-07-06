@@ -30,18 +30,20 @@
       class="container px-6 mx-auto md:flex md:justify-between md:items-center"
     >
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <ul
-        :class="showMenu ? 'flex' : 'flex object-top'"
-        class="ml-60 flex-col items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-      >
-        <li class="menu-button"><a href="#">Home</a></li>
-        <li class="menu-button"><a href="#music" v-smooth-scroll>Music</a></li>
-        <li class="menu-button">
-          <a href="#video" v-smooth-scroll>Videos</a>
-        </li>
-        <li class="menu-button"><a href="#testimonials" v-smooth-scroll>Testimonials</a></li>
-        <li class="menu-button"><a href="#about" v-smooth-scroll>About</a></li>
-      </ul>
+      <div class="ml-60">
+        <ul
+          :class="showMenu ? 'flex' : 'flex object-top'"
+          class="flex-col items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+        >
+          <li class="menu-button"><a href="#">Home</a></li>
+          <li class="menu-button"><a href="#music" v-smooth-scroll>Music</a></li>
+          <li class="menu-button">
+            <a href="#video" v-smooth-scroll>Videos</a>
+          </li>
+          <li class="menu-button"><a href="#testimonials" v-smooth-scroll>Testimonials</a></li>
+          <li class="menu-button"><a href="#about" v-smooth-scroll>About</a></li>
+        </ul>
+      </div>
     </nav>
     <!-- End Navbar -->
     </div>
@@ -113,14 +115,14 @@
     </div>
 
     <div class="max-w-6xl mx-auto px-8 py-16">
-      <div class="flex justify-center">
-      <div class="flex-col justify-center">
-    <iframe width="390" height="195" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
+    <div class="flex-shrink flex justify-center">
+    <div class="flex-col">
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
     <hr class="h-px my-8 mr-10 w-130 bg-white border-0 dark:bg-white">
-    <iframe width="390" height="195" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    </div>
+    <iframe width="500" height="350" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <div class="relative">
+      </div>
       </div>
     </div>
   </div>
@@ -154,7 +156,7 @@
   </div>
 
 <div class="banner-2 space-y-10 pb-5" id="music">
-<h3 class="heading3 text-right mr-5">About Us</h3>
+<h3 class="heading3 text-center">About Us</h3>
 </div>
 <div class="flex-col ml-5">
 <div class="flex justify-center">
