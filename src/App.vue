@@ -30,10 +30,10 @@
       class="container px-6 mx-auto md:flex md:justify-between md:items-center"
     >
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-      <div class="ml-60">
+      <div class="ml-5">
         <ul
           :class="showMenu ? 'flex' : 'hidden'"
-          class="flex-col items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
+          class="flex-row items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
         >
           <li class="menu-button"><a href="#">Home</a></li>
           <li class="menu-button"><a href="#music" v-smooth-scroll>Music</a></li>
