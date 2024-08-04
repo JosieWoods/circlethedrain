@@ -11,7 +11,7 @@
           />
         <a href="https://www.instagram.com/circlethedrainband/">
           <img
-            class="rounded-full size-10 ml-1 mt-1"
+            class="rounded-full size-10 ml-1 mt-5"
             src="./assets/instagram.png"
           />
           </a>
@@ -23,18 +23,15 @@
           </a>
           </div>
       </div>
-    <div><p class="text-white w-48"></p></div>
+    <div><p class="text-white"></p></div>
     <!-----End Logo----->
     <!-- NavBar -->
     <nav
-      class="container px-6 mx-auto md:flex md:justify-between md:items-center"
+      class="container inset-y-0 right-0 px-6 mx-auto flex justify-between items-center"
     >
       <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
       <div class="ml-5">
-        <ul
-          :class="showMenu ? 'flex' : 'hidden'"
-          class="flex-row items-end space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
-        >
+        <ul class="flex-row items-end flex flex-row items-center space-x-10 mt-0">
           <li class="menu-button"><a href="#">Home</a></li>
           <li class="menu-button"><a href="#music" v-smooth-scroll>Music</a></li>
           <li class="menu-button">
@@ -63,8 +60,8 @@
     Stream these tunes!
       </p>
     </div>
-    <div class="card">
-      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+    <div class="card  space-x-20">
+      <div class="space-y-5 py-16 px-20 w-1/2">
         <h4 class="project-title item">Lil Stuart / Helium Tank</h4>
         <p class="font-work_sans pr-12">
           Enjoy our first release in the form of this double single!
@@ -86,8 +83,8 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
+    <div class="card space-x-20">
+      <div class="space-y-5 py-16 px-20 md:w-1/2">
         <h4 class="project-title item">Select Live Tracks</h4>
         <p class="font-work_sans pr-12">
           While we're workin' on our EP, enjoy some live tracks from some recent shows!! If you've been wanting to stream and scream about crabs, your time is now!!
@@ -108,8 +105,8 @@
 
   <div class="banner-2 ml-5" id="video">
     <div class="space-y-4 grid mt-5 mr-5">
-      <h3 class="heading3 text-right">Videos</h3>
-      <p class="text-right font-work_sans text-gray-600 font-semibold leading-relaxed">
+      <h3 class="heading3 text-left">Videos</h3>
+      <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed">
         Check out some clips of us in action!
       </p>
     </div>
@@ -117,9 +114,9 @@
     <div class="max-w-6xl mx-auto px-8 py-16">
     <div class="flex-shrink flex justify-center">
     <div class="flex-col">
-    <iframe width="500" height="350" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
+    <iframe width="800" height="550" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
     <hr class="h-px my-8 mr-10 w-130 bg-white border-0 dark:bg-white">
-    <iframe width="500" height="350" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="800" height="550" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <div class="relative">
       </div>
@@ -156,7 +153,7 @@
   </div>
 
 <div class="banner-2 space-y-10 pb-5" id="music">
-<h3 class="heading3 text-center mb-20">About Us</h3>
+<h3 class="heading3 text-left mb-20">About Us</h3>
 </div>
 <div class="flex-col ml-5">
 <div class="flex justify-center">
@@ -172,10 +169,10 @@
         Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
         <br>
         <br />
-        Venues Played: The Camel, The Canal Club, Cobra Cabana, Bandito's
+        Venues Played: The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
         <br>
         <br />
-        Bands We've Performed With: Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Los Malcriados, Boy Scout Marie, Hemmingway Lane, Tiny the Dream
+        Some of the Bands We've Performed With: Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie, Hemmingway Lane, Tiny the Dream
       </p>
     </div>
   </div>
