@@ -60,10 +60,10 @@
     Stream these tunes!
       </p>
     </div>
-    <div class="card  space-x-20">
-      <div class="space-y-5 py-16 px-20 w-1/2">
+    <div class="card flex space-x-20">
+      <div class="space-y-5 py-10 px-10 w-1/2">
         <h4 class="project-title item">Lil Stuart / Helium Tank</h4>
-        <p class="font-work_sans pr-12">
+        <p class="font-work_sans">
           Enjoy our first release in the form of this double single!
 
           I found this mouse in my house, his name is Stuart, Lil' Stuart, and he got into the Helium
@@ -71,11 +71,11 @@
           a helicopter please send it our way now!!!
         </p>
         <br>
-        <a href="https://open.spotify.com/album/55XVE4ILyuIG2042BhU8eL?si=pPX4Qs5SRTeHhlBBVd06vg" class="text-sky-600 font-bold text-2xl tracking-wider mt-20">
+        <a href="https://open.spotify.com/album/55XVE4ILyuIG2042BhU8eL?si=pPX4Qs5SRTeHhlBBVd06vg" class="text-sky-600 font-bold text-2xl mt-20">
           Listen Now!
         </a>
       </div>
-      <div class="card-image bg-white-100">
+      <div class="card-image bg-white-100 w-1/2">
         <img
           class="object-cover w-full h-full"
           src="./assets/mousef.png"
@@ -84,26 +84,26 @@
     </div>
 
     <div class="card space-x-20">
-      <div class="space-y-5 py-16 px-20 md:w-1/2">
+      <div class="space-y-5 py-10 px-10 w-1/2">
         <h4 class="project-title item">Select Live Tracks</h4>
-        <p class="font-work_sans pr-12">
+        <p class="font-work_sans">
           While we're workin' on our EP, enjoy some live tracks from some recent shows!! If you've been wanting to stream and scream about crabs, your time is now!!
         </p>
         <br>
-        <a href="https://circlethedrainband.bandcamp.com/album/select-live-tracks-vol-1" class="text-sky-600 font-bold text-2xl tracking-wider">
+        <a href="https://circlethedrainband.bandcamp.com/album/select-live-tracks-vol-1" class="text-sky-600 font-bold text-2xl">
           Check them out on Bandcamp!
         </a>
       </div>
-      <div class="card-image">
+      <div class="card-image bg-white-100 w-1/2">
         <img
-          class="object-cover bg-white-100 w-full h-full"
+          class="object-cover w-full h-full"
           src="./assets/ctdlive.jpg"
         />
       </div>
     </div>
   </div>
 
-  <div class="banner-2 ml-5" id="video">
+  <div class="banner-2 ml-1" id="video">
     <div class="space-y-4 grid mt-5 mr-5">
       <h3 class="heading3 text-left">Videos</h3>
       <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed">
@@ -112,11 +112,11 @@
     </div>
 
     <div class="max-w-6xl mx-auto px-8 py-16">
-    <div class="flex-shrink flex justify-center">
-    <div class="flex-col">
-    <iframe width="800" height="550" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
+    <div class="flex justify-center">
+    <div class="flex-col mr-5">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
     <hr class="h-px my-8 mr-10 w-130 bg-white border-0 dark:bg-white">
-    <iframe width="800" height="550" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       <div class="relative">
       </div>
@@ -128,10 +128,10 @@
     <div class="space-y-4 grid mt-5">
       <h3 class="heading3 text-left ml-1">Testimonials</h3>
       <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed ml-1">
-        Kind words from amazing people 🥹
+        Kind words from amazing people!
       </p>
     </div>
-    <div class="max-w-6xl mx-auto px-8 py-16">
+    <div class="px-8 py-16">
       <div class="relative">
         <div class="relative lg:flex rounded-lg overflow-hidden">
         <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="size-4/5 mr-10">
@@ -140,7 +140,7 @@
         />
         </a>
           <div
-            class="h-56 lg:h-auto relative flex items-center justify-center size=2/5"
+            class="h-auto relative flex items-center justify-center size=2/5"
           ></div>
           <a href="https://www.instagram.com/circlethedrainband/">
           <img
@@ -153,39 +153,55 @@
   </div>
 
 <div class="banner-2 space-y-10 pb-5" id="music">
-<h3 class="heading3 text-left mb-20">About Us</h3>
+ <div class="space-y-4 grid mt-5 mr-5">
+      <h3 class="heading3 text-left">About Us</h3>
+  </div>
 </div>
-<div class="flex-col ml-5">
+<div class="flex-col ml-10">
 <div class="flex justify-center">
     <img
-      class="size-2/5 ml-5"
+      class="size-2/5 ml-7"
       src="./assets/ctdtree.png"
     />
-  <div class="space-y-5 py-8 px-8 md:py-16 md:px-20 md:w-1/2">
-      <p class="font-work_sans text-white">
-        Hey y'all, we're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more!
+    <img
+      class="size-2/5 ml-7 mt-10"
+      src="./assets/ctdmeat.jpg"
+    />
+  </div>
+  <div class="space-y-5 sm:py-8 sm:px-8 md:py-8 md:py-8 lg:px-16 lg:px-16">
+      <p class="font-work_sans text-white px-12">
+        Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more!
         <br>
         <br />
         Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
         <br>
         <br />
-        Venues Played: The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
+      </p>
+      <p class="font-work_sans text-orange-200 pl-12 inline">
+        Venues Played: 
+      </p>
+      <p  class="font-work_sans text-white inline">
+      The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
         <br>
         <br />
-        Some of the Bands We've Performed With: Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie, Hemmingway Lane, Tiny the Dream
+      </p>
+       <p class="font-work_sans text-orange-200 pl-12 inline">
+        Some of the Bands We've Performed With: 
+      </p>
+      <p  class="font-work_sans text-white inline pr-6">
+        Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie,
+      </p>
+      <p  class="font-work_sans text-white inline pl-12">
+        Hemmingway Lane, Tiny the Dream
       </p>
     </div>
   </div>
-  </div>
 
-  <div class="banner-1 flex h-full items-center">
+  <div class="banner-1 flex h-full items-center mb-10">
     <div class="w-7/12">
     <div class="flex">
       <h2 class="text-orange-200 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
-        Crabs, crabs, crabs, please!
-        In my mouth yeah;
-        I'm allergic to shellfish, I wanna die!
-        Just like Amelia Earhart, take me crabs!
+        "Just like Amelia Earhart, take me crabs!" - Josie in ACRAB by Circle the Drain
       </h2>
       </div>
       <div class="pb-5">
