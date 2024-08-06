@@ -154,13 +154,13 @@
 
 <div class="banner-2 space-y-10 pb-5" id="music">
  <div class="space-y-4 grid mt-5 mr-5">
-      <h3 class="heading3 text-left">About Us</h3>
+      <h3 class="heading3 text-left pb-10 ">About Us</h3>
   </div>
 </div>
-<div class="flex-col ml-10">
+<div class="flex-col">
 <div class="flex justify-center">
     <img
-      class="size-2/5 ml-7"
+      class="size-2/5"
       src="./assets/ctdtree.png"
     />
     <img
@@ -168,27 +168,27 @@
       src="./assets/ctdmeat.jpg"
     />
   </div>
-  <div class="space-y-5 sm:py-8 sm:px-8 md:py-8 md:py-8 lg:px-16 lg:px-16">
-      <p class="font-work_sans text-white px-12">
-        Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more!
-        <br>
-        <br />
-        Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
+  <div class="space-y-5 sm:py-8 sm:px-8 md:py-8 md:py-8 lg:px-16 lg:py-16">
+      <p class="font-work_sans text-orange-200 pl-12 inline-block text-2xl">
+        Who are we??:
+      </p>
+      <p class="font-work_sans text-white text-wrap ml-12">
+        Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more! Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
         <br>
         <br />
       </p>
-      <p class="font-work_sans text-orange-200 pl-12 inline">
+      <p class="font-work_sans text-orange-200 inline-block ml-12 text-2xl">
         Venues Played: 
       </p>
-      <p  class="font-work_sans text-white inline">
+      <p  class="font-work_sans text-white text-wrap ml-12">
       The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
         <br>
         <br />
       </p>
-       <p class="font-work_sans text-orange-200 pl-12 inline">
+       <p class="font-work_sans text-orange-200 pl-12 inline-block text-2xl">
         Some of the Bands We've Performed With: 
       </p>
-      <p  class="font-work_sans text-white inline pr-6">
+      <p  class="font-work_sans text-white text-wrap ml-12">
         Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie,
       </p>
       <p  class="font-work_sans text-white inline pl-12">
