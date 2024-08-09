@@ -60,8 +60,8 @@
     Stream these tunes!
       </p>
     </div>
-    <div class="card flex space-x-20">
-      <div class="space-y-5 py-10 px-10 w-1/2">
+    <div class="card flex justify-center space-x-10 pr-10">
+      <div class="space-y-5 py-10 w-1/2">
         <h4 class="project-title item">Lil Stuart / Helium Tank</h4>
         <p class="font-work_sans">
           Enjoy our first release in the form of this double single!
@@ -83,8 +83,8 @@
       </div>
     </div>
 
-    <div class="card space-x-20">
-      <div class="space-y-5 py-10 px-10 w-1/2">
+    <div class="card flex justify-center space-x-10 pr-10">
+      <div class="space-y-5 py-10 w-1/2">
         <h4 class="project-title item">Select Live Tracks</h4>
         <p class="font-work_sans">
           While we're workin' on our EP, enjoy some live tracks from some recent shows!! If you've been wanting to stream and scream about crabs, your time is now!!
@@ -113,7 +113,7 @@
 
     <div class="max-w-6xl mx-auto px-8 py-16">
     <div class="flex justify-center">
-    <div class="flex-col mr-5">
+    <div class="flex-col">
     <iframe width="600" height="400" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mr-10"></iframe>
     <hr class="h-px my-8 mr-10 w-130 bg-white border-0 dark:bg-white">
     <iframe width="600" height="400" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -131,25 +131,22 @@
         Kind words from amazing people!
       </p>
     </div>
-    <div class="px-8 py-16">
-      <div class="relative">
-        <div class="relative lg:flex rounded-lg overflow-hidden">
-        <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="size-4/5 mr-10">
+    <div class="flex justify-center py-10 space-x-10">
+        <div class="size-1/2 px-10">
+        <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="">
         <img
           src="./assets/ctdtestone.png"
         />
         </a>
-          <div
-            class="h-auto relative flex items-center justify-center size=2/5"
-          ></div>
-          <a href="https://www.instagram.com/circlethedrainband/">
+        </div>
+          <div class="size-2/5 px-10 py-10">
+          <a href="https://www.instagram.com/circlethedrainband/" class="">
           <img
           src="./assets/ctdTestTwo.png"
         />
         </a>
         </div>
-      </div>
-    </div>
+  </div>
   </div>
 
 <div class="banner-2 space-y-10 pb-5" id="music">
@@ -168,7 +165,7 @@
       src="./assets/ctdmeat.jpg"
     />
   </div>
-  <div class="space-y-5 sm:py-8 sm:px-8 md:py-8 md:py-8 lg:px-16 lg:py-16">
+  <div class="space-y-5 py-5 sm:py-8 sm:px-8 md:py-8 md:py-8 lg:px-16 lg:py-16">
       <p class="font-work_sans text-orange-200 pl-12 inline-block text-2xl">
         Who are we??:
       </p>
@@ -189,10 +186,7 @@
         Some of the Bands We've Performed With: 
       </p>
       <p  class="font-work_sans text-white text-wrap ml-12">
-        Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie,
-      </p>
-      <p  class="font-work_sans text-white inline pl-12">
-        Hemmingway Lane, Tiny the Dream
+        Ekko Astral, Flight Club, Big Girl, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Boy Scout Marie, Hemmingway Lane, Tiny the Dream
       </p>
     </div>
   </div>
@@ -201,7 +195,7 @@
     <div class="w-7/12">
     <div class="flex">
       <h2 class="text-orange-200 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
-        "Just like Amelia Earhart, take me crabs!" - Josie in ACRAB by Circle the Drain
+        "Just like Amelia Earhart, take me crabs!" - ACRAB by Circle the Drain
       </h2>
       </div>
       <div class="pb-5">
