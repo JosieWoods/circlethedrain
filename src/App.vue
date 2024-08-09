@@ -55,7 +55,7 @@
 
   <div class="banner-2 space-y-10 pb-20" id="music">
     <div>
-    <h3 class="heading3 my-5 ml-2">Our Music</h3>
+    <h3 class="heading3 my-5 ml-2 pt-10">Our Music</h3>
     <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed ml-2">
     Stream these tunes!
       </p>
@@ -125,21 +125,21 @@
   </div>
 
   <div class="banner-2" id="testimonials">
-    <div class="space-y-4 grid mt-5">
+    <div class="space-y-4 mt-5">
       <h3 class="heading3 text-left ml-1">Testimonials</h3>
       <p class="text-left font-work_sans text-gray-600 font-semibold leading-relaxed ml-1">
         Kind words from amazing people!
       </p>
     </div>
-    <div class="flex justify-center py-10 space-x-10">
-        <div class="size-1/2 px-10">
+    <div class="flex flex-col items-center justify-center py-10 space-x-10">
+        <div class="size-2/3 size-1/2">
         <a href="http://www.theauricular.com/news/rva-shows-you-must-see-this-week-march-27-april-2/" class="">
         <img
           src="./assets/ctdtestone.png"
         />
         </a>
         </div>
-          <div class="size-2/5 px-10 py-10">
+          <div class="size-2/5 py-10">
           <a href="https://www.instagram.com/circlethedrainband/" class="">
           <img
           src="./assets/ctdTestTwo.png"
