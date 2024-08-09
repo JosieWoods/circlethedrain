@@ -149,7 +149,7 @@
   </div>
   </div>
 
-<div class="banner-2 space-y-10 pb-5" id="music">
+<div class="banner-2 space-y-10 pb-5" id="about">
  <div class="space-y-4 grid mt-5 mr-5">
       <h3 class="heading3 text-left pb-10 ">About Us</h3>
   </div>
