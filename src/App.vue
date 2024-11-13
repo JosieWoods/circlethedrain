@@ -126,7 +126,7 @@
       src="./assets/ctdmeat.jpg"
     />
   </div>
-  <div class="space-y-5 py-5">
+  <div class="space-y-5 py-5 px-12">
       <p class="font-work_sans text-orange-200 pl-12 inline-block text-2xl">
         Who are we??:
       </p>
