@@ -10,7 +10,7 @@
 }
 
 .banner-2 {
-  @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16 text-sky-100;
+  @apply px-5 pt-5 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16 text-sky-100;
   background-color: #000000;
 }
 .bg-yellowis {
@@ -45,7 +45,7 @@
 }
 
 .mainGif {
-  @apply flex justify-center bg-black mt-10 mb-10 ml-2;
+  @apply flex justify-center bg-black mb-20 size-auto;
 }
 
 @layer utilities {
