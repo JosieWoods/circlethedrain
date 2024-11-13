@@ -38,7 +38,7 @@
 }
 
 .card {
-  @apply bg-black rounded-2xl md:flex place-items-center my-20 shadow-md ml-5;
+  @apply bg-black rounded-2xl flex place-items-center my-20 shadow-md ml-5;
 }
 .card-image {
   @apply md:w-96 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl flex;
