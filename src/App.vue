@@ -2,7 +2,7 @@
   <div class="bg-black">
   <div class="banner-1">
   <!--Logo and Social Buttons-->
-  <div class="flex-col items-center justify-between w-5 mr-10">
+  <div class="items-center justify-between w-5 mr-20">
         <div class="relative w-16 h-16 mr-5">
           <img
             class="rounded-full"
@@ -26,11 +26,16 @@
             src="./assets/note.png"
           />
           </a>
-          
+          <a href="mailto:circlethedrainband@gmail.com">
+          <img
+            class="size-1/3 ml-2.5 mt-1"
+            src="./assets/mail.png"
+          />
+          </a>
           </div>
       </div>
-    <div><p class="text-white w-24"></p></div>
     <!-----End Logo----->
+    <div class="lg:flex lg:flex-row lg:justify-center">
     <div class="mainGif">
         <img
           src="./assets/ctdslowgif.gif"
@@ -38,13 +43,15 @@
         />
       </div>
     </div>
+  </div>
     
   <div class="banner-2 pb-10" id="music">
-    <h3 class="heading3 my-5 ml-2 pt-10">Our Music</h3>
+    <h3 class="heading3 mr-2 pt-10">Our Music</h3>
     <div class="card">
-      <div class="space-y-5 px-8 md:py-16 md:px-20 md:w-1/2">
+      <div class="flex flex-row justify-center">
+      <div class="space-y-5 w-1/2 lg:pt-20">
         <h4 class="project-title item">Lil Stuart / Helium Tank</h4>
-        <p class="font-work_sans sm:text-sm md:text-md lg:text-lg">
+        <p class="font-work_sans text-xl pr-20">
           Enjoy our first release in the form of this double single!
 
           I found this mouse in my house, his name is Stuart, Lil' Stuart, and he got into the Helium
@@ -63,8 +70,47 @@
         />
       </div>
     </div>
+    </div>
   </div>
+
+  <div class="banner-2 space-y-10 pb-5" id="music">
+<h3 class="heading3 text-left mb-8">About Us</h3>
+</div>
+<div class="flex flex-row justify-center pb-12">
+    <div class="relative w-2/5">
+      <img
+      src="./assets/ctdtree.png"
+    />
+  </div>
+  <div class="w-2/5">
+    <img
+      src="./assets/ctdmeat.jpg"
+    />
+  </div>
+</div>
+  <div class="space-y-5 py-5 px-12">
+      <p class="font-work_sans text-orange-200 pl-12 inline-block text-3xl">
+        Who are we??:
+      </p>
+      <h3 class="font-work_sans text-xl text-white text-wrap ml-12 mr-5 pb-5">
+        Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more! Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
+      </h3>
+      <p class="font-work_sans text-orange-200 inline-block ml-12 text-3xl mr-5">
+        Venues Played: 
+      </p>
+      <p class="font-work_sans text-xl text-white text-wrap ml-12 mr-5 pb-5">
+      The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
+      </p>
+        <p class="font-work_sans text-orange-200 inline-block ml-12 text-3xl mr-5">
+          Bands We've Performed With: 
+      </p>
+      <p class="font-work_sans text-xl text-white text-wrap ml-12 mr-5">
+        Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Fight Cloud, Los Malcriados, Boy Scout Marie, Hemmingway Lane, Wake Lee
+      </p>
+    </div>
+
   <div class="banner-2 pb-20">
+    <h3 class="heading3 ml-2 pt-10 pb-10">Videos</h3>
   <div class="flex flex-row justify-center">
     <div class="flex flex-col justify-center">
       <iframe class="pb-20" width="525" height="375" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -109,44 +155,6 @@
             </div>
           </div>
       </div>
-    </div>
-  </div>
-
-<div class="banner-2 space-y-10 pb-5" id="music">
-<h3 class="heading3 text-left mb-8">About Us</h3>
-</div>
-<div class="flex-col">
-<div class="flex justify-center">
-    <img
-      class="size-2/5"
-      src="./assets/ctdtree.png"
-    />
-    <img
-      class="size-2/5 ml-7 mt-10"
-      src="./assets/ctdmeat.jpg"
-    />
-  </div>
-  <div class="space-y-5 py-5 px-12">
-      <p class="font-work_sans text-orange-200 pl-12 inline-block text-2xl">
-        Who are we??:
-      </p>
-      <p class="font-work_sans text-white text-wrap ml-12 mr-5">
-        Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more! Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
-        <br>
-        <br />
-      </p>
-      <p class="font-work_sans text-orange-200 inline-block ml-12 text-2xl mr-5">
-        Venues Played: 
-      </p>
-      <p  class="font-work_sans text-white text-wrap ml-12 mr-5">
-      The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
-        <br>
-        <br />
-        Venues Played: The Camel, The Canal Club, Cobra Cabana, Bandito's
-        <br>
-        <br />
-        Bands We've Performed With: Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Fight Cloud, Los Malcriados, Boy Scout Marie, Hemmingway Lane, Wake Lee
-      </p>
     </div>
   </div>
 

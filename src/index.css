@@ -34,18 +34,18 @@
 }
 
 .project-title {
-  @apply text-sky-200 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
+  @apply text-sky-200 text-3xl font-work_sans tracking-wide font-bold;
 }
 
 .card {
-  @apply bg-black rounded-2xl flex place-items-center my-20 shadow-md ml-5;
+  @apply bg-black rounded-2xl flex my-10 shadow-md;
 }
 .card-image {
-  @apply md:w-96 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl;
+  @apply phone:mt-10 phone:size-80 lg:size-96 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl;
 }
 
 .mainGif {
-  @apply flex justify-center bg-black mb-20;
+  @apply flex flex-col justify-center bg-black mb-20 pt-2;
 }
 
 .test {
