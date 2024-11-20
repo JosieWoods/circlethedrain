@@ -77,12 +77,12 @@
 <h3 class="heading3 text-left mb-8">About Us</h3>
 </div>
 <div class="flex flex-row justify-center pb-12">
-    <div class="relative w-2/5">
+    <div class="relative w-2/5 px-5">
       <img
       src="./assets/ctdtree.png"
     />
   </div>
-  <div class="w-2/5">
+  <div class="w-2/5 px-5 pt-10">
     <img
       src="./assets/ctdmeat.jpg"
     />
