@@ -105,7 +105,7 @@
           Bands We've Performed With: 
       </p>
       <p class="font-work_sans text-xl text-white text-wrap ml-12 mr-5">
-        Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Fight Cloud, Los Malcriados, Boy Scout Marie, Hemmingway Lane, Wake Lee
+        Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Fight Cloud, Big Girl, Los Malcriados, Boy Scout Marie, Bone Machine, Hemmingway Lane, Wake Lee, Mad Abbey
       </p>
     </div>
 
