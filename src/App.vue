@@ -96,13 +96,13 @@
         Hey y'all! We're Circle the Drain! We're a genre hoppin' rock band from Richmond, VA singin' about a lil' mouse, crabs, honey and more! Based in rock with a focus on emo, indie, funk, and metal! (but not at the same time!)
       </h3>
       <p class="font-work_sans text-orange-200 inline-block ml-12 text-3xl mr-5">
-        Venues Played: 
+        Venues We've Performed at: 
       </p>
       <p class="font-work_sans text-xl text-white text-wrap ml-12 mr-5 pb-5">
       The Camel, The Canal Club, Cobra Cabana, Bandito's, Chinchilla Cafe
       </p>
         <p class="font-work_sans text-orange-200 inline-block ml-12 text-3xl mr-5">
-          Bands We've Performed With: 
+          Bands We've Performed with: 
       </p>
       <p class="font-work_sans text-xl text-white text-wrap ml-12 mr-5">
         Ekko Astral, Flight Club, Crush Fund, Ten Pound Snail, Dogs on Shady Lane, Fight Cloud, Big Girl, Los Malcriados, Boy Scout Marie, Bone Machine, Hemmingway Lane, Wake Lee, Mad Abbey
