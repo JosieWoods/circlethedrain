@@ -35,11 +35,11 @@
           </div>
       </div>
     <!-----End Logo----->
-    <div class="lg:flex lg:flex-row lg:justify-center">
-    <div class="mainGif">
+    <div class="flex flex-row justify-center object-contain">
+    <div class="mainPic width=device-width size-1/2">
         <img
-          src="./assets/ctdslowgif.gif"
-          alt="gif of Circle the Drain performing"
+          src="./assets/ctdpray.png"
+          alt="Circle the Drain outside of the Camel in Richmond, Virginia"
         />
       </div>
     </div>
@@ -47,6 +47,29 @@
     
   <div class="banner-2 pb-10" id="music">
     <h3 class="heading3 mr-2 pt-10">Our Music</h3>
+    <div class="card">
+      <div class="flex flex-row justify-center">
+      <div class="space-y-5 w-1/2 lg:pt-20">
+        <h4 class="project-title item">Songs from the Corn</h4>
+        <p class="font-work_sans text-xl pr-20">
+          Our first EP, containing a mix of emo, indie rock, metal and hardcore, will be out on 3/6!
+
+          There is a massive amount of crabs outside my apartment. They pinch at my feet whenever I try to leave, I don't even care, I just think they're cute!
+        </p>
+        <br>
+        <a href="https://distrokid.com/hyperfollow/circlethedrain2/songs-from-the-corn?utm_campaign=website&utm_medium=Email+&utm_source=SendGrid" class="text-sky-600 font-bold text-2xl mt-20">
+          Pre-Save Now!
+        </a>
+      </div>
+      <div class="card-image bg-white-100">
+        <img
+          class="object-cover w-full h-full"
+          src="./assets/corncover.jpg"
+        />
+      </div>
+    </div>
+    </div>
+
     <div class="card">
       <div class="flex flex-row justify-center">
       <div class="space-y-5 w-1/2 lg:pt-20">
@@ -69,6 +92,8 @@
           src="./assets/mousef.png"
         />
       </div>
+
+      
     </div>
     </div>
   </div>
@@ -79,12 +104,12 @@
 <div class="flex flex-row justify-center pb-12">
     <div class="relative w-2/5 px-5">
       <img
-      src="./assets/ctdtree.png"
+      src="./assets/ctdstairs.jpg"
     />
   </div>
-  <div class="w-2/5 px-5 pt-10">
+  <div class="w-2/5 px-5 pt-24">
     <img
-      src="./assets/ctdmeat.jpg"
+      src="./assets/ctdcamelone.png"
     />
   </div>
 </div>
@@ -113,10 +138,10 @@
     <h3 class="heading3 ml-2 pt-10 pb-10">Videos</h3>
   <div class="flex flex-row justify-center">
     <div class="flex flex-col justify-center">
-      <iframe class="pb-20" width="525" height="375" src="https://www.youtube.com/embed/N8cMRRl258E?si=TtYr5BW6I4Vx9tMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe class="pb-20" width="525" height="375" src="https://www.youtube.com/embed/0R9X1p1L0y8?si=CdCOmr7GZyAxdfUD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <hr class="object-center pb-5 pt-10">
     <div class="vidContainer">
-      <iframe width="525" height="375" src="https://www.youtube.com/embed/PUdXtAge_84?si=iJd60jxk8OB26dqy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="525" height="375" src="https://www.youtube.com/embed/XmedIjfcEJI?si=mqlwoplC7vX81fkN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
     </div>
 </div>
@@ -162,7 +187,7 @@
     <div class="w-7/12">
     <div class="flex">
       <h2 class="text-orange-200 md:text-6xl text-2xl font-Eczar mb-5 font-bold pl-5">
-        We're currently recording, our EP will be out next year!
+        Spiraling out of your pipes in a town near you!
       </h2>
       </div>
       <div class="pb-5 pl-5">
@@ -176,7 +201,7 @@
       <div class="flex flex-wrap justify-end gap-2">
       <img
             class="pb-20 pl-5"
-            src="./assets/ctdposter.png"
+            src="./assets/ctdposter.jpeg"
           />
       </div>
     </div>
